@@ -43,8 +43,6 @@ datasources: !ruby/object:Overrides::ResourceOverrides
     exclude: true
   RegionInstanceGroupManager: !ruby/object:Overrides::Ansible::ResourceOverride
     exclude: true
-  RegionSslCertificate: !ruby/object:Overrides::Ansible::ResourceOverride
-    exclude: true
   RegionTargetHttpProxy: !ruby/object:Overrides::Ansible::ResourceOverride
     exclude: true
   RegionTargetHttpsProxy: !ruby/object:Overrides::Ansible::ResourceOverride
@@ -332,8 +330,6 @@ overrides: !ruby/object:Overrides::ResourceOverrides
   RegionHealthCheck: !ruby/object:Overrides::Ansible::ResourceOverride
     exclude: true
   RegionInstanceGroupManager: !ruby/object:Overrides::Ansible::ResourceOverride
-    exclude: true
-  RegionSslCertificate: !ruby/object:Overrides::Ansible::ResourceOverride
     exclude: true
   RegionTargetHttpProxy: !ruby/object:Overrides::Ansible::ResourceOverride
     exclude: true
