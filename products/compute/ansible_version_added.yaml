@@ -56,6 +56,8 @@
     :version_added: '2.9'
   :SslCertificate:
     :version_added: '2.7'
+  :RegionSslCertificate:
+    :version_added: '2.10'
   :Reservation:
     :version_added: '2.10'
   :SslPolicy:
@@ -1089,6 +1091,18 @@
       :version_added: '2.6'
     :privateKey:
       :version_added: '2.6'
+  :RegionSslCertificate:
+    :version_added: '2.10'
+    :certificate:
+      :version_added: '2.10'
+    :description:
+      :version_added: '2.10'
+    :name:
+      :version_added: '2.10'
+    :privateKey:
+      :version_added: '2.10'
+    :region:
+      :version_added: '2.10'
   :Reservation:
     :version_added: '2.10'
     :description:
